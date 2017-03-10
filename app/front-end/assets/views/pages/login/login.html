@@ -1,0 +1,14 @@
+<script type="text/ng-template" id="loginModal.html">
+	<div class="modal-content">
+		<div class="modal-body">
+			<form name="loginForm">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Pick a name, any name..."
+						   ng-model="$ctrl.loginName" required>
+				</div>
+				<button type="button" class="btn btn-primary" ng-click="$ctrl.login($ctrl.loginName)">Login</button>
+			</form>
+		</div>
+	</div>
+</script>
+

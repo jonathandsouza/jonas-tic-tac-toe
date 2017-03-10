@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CHAT APP</title>
+
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+	<script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+	<script src="/node_modules/rx-lite/rx.lite.min.js"></script>
+
+
+	<link rel="stylesheet" href="/app/front-end/assets/theme/bootstrap.theme.yeti.min.css">
+	<link rel="stylesheet" href="/app/front-end/styles/main.css">
+
+
+	<script src="/app/front-end/pages/login/core.js"></script>
+	<script src="/app/front-end/pages/play/core.js"></script>
+	<script src="/app/front-end/pages/core.js"></script>
+
+	<script src="/app/front-end/modules/socket/core.js"></script>
+	<script src="/app/front-end/modules/socket/socket.js"></script>
+	<script src="/app/front-end/modules/socket/dispatcher.js"></script>
+
+	<script src="/app/front-end/modules/game/game-coordinator.js"></script>
+	<script src="/app/front-end/modules/game/api.js"></script>
+	<script src="/app/front-end/modules/game/core.js"></script>
+
+
+	<script src="/app/front-end/modules/core.js"></script>
+
+	<script src="/app/front-end/app.js"></script>
+
+
+</head>
+<body ng-app="ttt">
+
+<ui-view></ui-view>
+
+</body>
+</html>
